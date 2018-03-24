@@ -55,7 +55,7 @@ fs.writeFile('current_price', '');
 setInterval(function(){
 	sendRequest();
 	console.log('Sent Request');
-}, 1000 * 5)
+}, 1000 * 60 * 60)
 
 
 var express = require('express');
